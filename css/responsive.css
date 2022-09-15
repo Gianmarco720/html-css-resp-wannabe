@@ -5,6 +5,14 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+/* media query mobile */
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 100%;
+    }
 
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
 }
